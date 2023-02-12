@@ -220,6 +220,7 @@ typedef struct {
 #define GPIOD   ((GPIO_TypeDef *)   GPIOD_BASE)
 #define GPIOE   ((GPIO_TypeDef *)   GPIOE_BASE)
 #define USART1  ((USART_TypeDef *)  USART1_BASE)
+#define USART6  ((USART_TypeDef *)  USART6_BASE)
 
 #define I2C1    ((I2C_TypeDef *)    I2C1_BASE)
 #define I2C2    ((I2C_TypeDef *)    I2C2_BASE)

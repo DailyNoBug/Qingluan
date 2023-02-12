@@ -22,6 +22,22 @@ void UART1_GPIOInit(){
     GPIO_Init(GPIOA,&UART_Initstruct);
     GPIOA->AFRH |= (0x07<<4) | (0x07<<8);
 }
+void UART6_GPIOInit(){
+    RCC->APB2ENR |= (1<<5);
+    RCC->APB2ENR |= (1<<14);
+    UART_Initstruct.GPIO_Pin    = GPIO_Pin_6;
+    UART_Initstruct.GPIO_Pupd   = GPIO_Pupd_UP;
+    UART_Initstruct.GPIO_Speed  = GPIO_Speed_50MHz;
+    UART_Initstruct.GPIO_OType  = GPIO_OType_PP;
+    UART_Initstruct.GPIO_Mode   = GPIO_Mode_AF;
+    GPIO_Init(GPIOC,&UART_Initstruct);
+    UART_Initstruct.GPIO_Pin    = GPIO_Pin_7;
+    UART_Initstruct.GPIO_Mode   = GPIO_Mode_In;
+    UART_Initstruct.GPIO_Pupd   = GPIO_Pupd_UP;
+    GPIO_Init(GPIOC,&UART_Initstruct);
+    GPIOC->AFRL |= (0x08<<24) | (0x08<<28);
+
+}
 void USART_Init(USART_TypeDef *UARTx , uint32_t bound,uint32_t pclk){
     float temp;
     uint16_t mantissa;
@@ -33,6 +49,8 @@ void USART_Init(USART_TypeDef *UARTx , uint32_t bound,uint32_t pclk){
 
     if(UARTx == USART1){
         UART1_GPIOInit();
+    }else if(UARTx == USART6){
+        UART6_GPIOInit();
     }
     UARTx -> CR1 = 0x00;
     UARTx -> CR2 = 0x00;

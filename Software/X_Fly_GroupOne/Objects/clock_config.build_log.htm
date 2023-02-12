@@ -21,46 +21,42 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
 Dialog DLL:      TCM.DLL V1.53.0.0
  
 <h2>Project:</h2>
-D:\repos\STM32_REGISTER\code\N_CLOCK_CONFIG_PROJECT\clock_config.uvprojx
-Project File Date:  02/11/2023
+D:\repos\Qingluan\Software\X_Fly_GroupOne\clock_config.uvprojx
+Project File Date:  02/12/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\myinstall\mdk536\ARM\ARMCC\Bin'
 Rebuild target 'Target 1'
-compiling pwm.c...
-USER\src\../inc/stm32f401ret6.h(234): warning:  #1-D: last line of file ends without a newline
-  #endif //STM32_REGISTER_STM32F401RET6_H
-USER\src\../inc/pwm.h(11): warning:  #1295-D: Deprecated declaration TIM_UnLock - give arg types
-  void TIM_UnLock();
-USER\src\pwm.c(33): warning:  #223-D: function "printf" declared implicitly
-      printf("1\n");
-USER\src\pwm.c(45): warning:  #1-D: last line of file ends without a newline
-  }
-USER\src\pwm.c: 4 warnings, 0 errors
-compiling uart.c...
-USER\src\../inc/stm32f401ret6.h(234): warning:  #1-D: last line of file ends without a newline
-  #endif //STM32_REGISTER_STM32F401RET6_H
-USER\src\uart.c(49): warning:  #1-D: last line of file ends without a newline
-  }
-USER\src\uart.c: 2 warnings, 0 errors
-compiling clock_config.c...
-USER\src\../inc/stm32f401ret6.h(234): warning:  #1-D: last line of file ends without a newline
-  #endif //STM32_REGISTER_STM32F401RET6_H
-USER\src\../inc/clock_config.h(10): warning:  #1295-D: Deprecated declaration pll_clock_config - give arg types
-  void pll_clock_config();
-USER\src\clock_config.c(42): warning:  #1-D: last line of file ends without a newline
-  }
-USER\src\clock_config.c: 3 warnings, 0 errors
 compiling mpu6050.c...
-USER\src\../inc/stm32f401ret6.h(234): warning:  #1-D: last line of file ends without a newline
+USER\src\../inc/stm32f401ret6.h(235): warning:  #1-D: last line of file ends without a newline
   #endif //STM32_REGISTER_STM32F401RET6_H
 USER\src\../inc/mpu6050.h(21): warning:  #1295-D: Deprecated declaration MPU6050_Init - give arg types
   void MPU6050_Init();
 USER\src\mpu6050.c(111): warning:  #1-D: last line of file ends without a newline
   }
 USER\src\mpu6050.c: 3 warnings, 0 errors
+compiling clock_config.c...
+USER\src\../inc/stm32f401ret6.h(235): warning:  #1-D: last line of file ends without a newline
+  #endif //STM32_REGISTER_STM32F401RET6_H
+USER\src\../inc/clock_config.h(10): warning:  #1295-D: Deprecated declaration pll_clock_config - give arg types
+  void pll_clock_config();
+USER\src\clock_config.c(42): warning:  #1-D: last line of file ends without a newline
+  }
+USER\src\clock_config.c: 3 warnings, 0 errors
+compiling gpio.c...
+USER\src\../inc/stm32f401ret6.h(235): warning:  #1-D: last line of file ends without a newline
+  #endif //STM32_REGISTER_STM32F401RET6_H
+USER\src\gpio.c(39): warning:  #1-D: last line of file ends without a newline
+  }
+USER\src\gpio.c: 2 warnings, 0 errors
+compiling iic.c...
+USER\src\../inc/stm32f401ret6.h(235): warning:  #1-D: last line of file ends without a newline
+  #endif //STM32_REGISTER_STM32F401RET6_H
+USER\src\iic.c(141): warning:  #1-D: last line of file ends without a newline
+  }
+USER\src\iic.c: 2 warnings, 0 errors
 compiling main.c...
-USER\src\../inc/stm32f401ret6.h(234): warning:  #1-D: last line of file ends without a newline
+USER\src\../inc/stm32f401ret6.h(235): warning:  #1-D: last line of file ends without a newline
   #endif //STM32_REGISTER_STM32F401RET6_H
 USER\src\../inc/clock_config.h(10): warning:  #1295-D: Deprecated declaration pll_clock_config - give arg types
   void pll_clock_config();
@@ -70,23 +66,29 @@ USER\src\../inc/pwm.h(11): warning:  #1295-D: Deprecated declaration TIM_UnLock 
   void TIM_UnLock();
 USER\src\main.c(28): warning:  #940-D: missing return statement at end of non-void function "_sys_exit" 
   }
-USER\src\main.c(80): warning:  #1-D: last line of file ends without a newline
+USER\src\main.c(88): warning:  #1-D: last line of file ends without a newline
   }
 USER\src\main.c: 6 warnings, 0 errors
-compiling gpio.c...
-USER\src\../inc/stm32f401ret6.h(234): warning:  #1-D: last line of file ends without a newline
+compiling pwm.c...
+USER\src\../inc/stm32f401ret6.h(235): warning:  #1-D: last line of file ends without a newline
   #endif //STM32_REGISTER_STM32F401RET6_H
-USER\src\gpio.c(39): warning:  #1-D: last line of file ends without a newline
+USER\src\../inc/pwm.h(11): warning:  #1295-D: Deprecated declaration TIM_UnLock - give arg types
+  void TIM_UnLock();
+USER\src\pwm.c(35): warning:  #223-D: function "printf" declared implicitly
+      printf("1\n");
+USER\src\pwm.c(51): warning:  #1-D: last line of file ends without a newline
   }
-USER\src\gpio.c: 2 warnings, 0 errors
-compiling iic.c...
-USER\src\../inc/stm32f401ret6.h(234): warning:  #1-D: last line of file ends without a newline
+USER\src\pwm.c: 4 warnings, 0 errors
+compiling uart.c...
+USER\src\../inc/stm32f401ret6.h(235): warning:  #1-D: last line of file ends without a newline
   #endif //STM32_REGISTER_STM32F401RET6_H
-USER\src\iic.c(141): warning:  #1-D: last line of file ends without a newline
+USER\src\uart.c(38): warning:  #61-D: integer operation result is out of range
+      GPIOC->AFRL |= (0x08<<24) | (0x08<<28);
+USER\src\uart.c(67): warning:  #1-D: last line of file ends without a newline
   }
-USER\src\iic.c: 2 warnings, 0 errors
+USER\src\uart.c: 3 warnings, 0 errors
 compiling rev.c...
-USER\src\../inc/stm32f401ret6.h(234): warning:  #1-D: last line of file ends without a newline
+USER\src\../inc/stm32f401ret6.h(235): warning:  #1-D: last line of file ends without a newline
   #endif //STM32_REGISTER_STM32F401RET6_H
 USER\src\rev.c(39): warning:  #1-D: last line of file ends without a newline
   }
@@ -94,9 +96,9 @@ USER\src\rev.c: 2 warnings, 0 errors
 assembling startup_stm32f401xe.s...
 compiling system_stm32f4xx.c...
 linking...
-Program Size: Code=2140 RO-data=436 RW-data=16 ZI-data=1656  
+Program Size: Code=9052 RO-data=612 RW-data=52 ZI-data=1652  
 FromELF: creating hex file...
-".\Objects\clock_config.axf" - 0 Error(s), 24 Warning(s).
+".\Objects\clock_config.axf" - 0 Error(s), 25 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -122,10 +124,10 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.5.0
 
    * Component: Keil::Device:Startup:2.6.3
-      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
       Source file:   MDK\Device\Source\ARM\STM32F401xx_OPT.s
-      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f401xe.s
       Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f401xe.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
       Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
 Build Time Elapsed:  00:00:01
 </pre>

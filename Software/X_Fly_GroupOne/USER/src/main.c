@@ -29,8 +29,8 @@ int _sys_exit(int x)
 //重定义fputc函数
 int fputc(int ch, FILE *f)
 {
-    while((USART1->SR & 0X40)==0);
-    USART1->DR = (uint8_t) ch;
+    while((USART6->SR & 0X40)==0);
+    USART6->DR = (uint8_t) ch;
     return ch;
 }
 #endif
@@ -48,17 +48,19 @@ void debug_init(){
 }
 int main(){
     pll_clock_config();
-    USART_Init(USART1,115200,42);
+    USART_Init(USART6,9600,42);
     printf("UART inited\n");
-//    I2C_Init(I2C2);
-//    printf("I2C inited\n");
-//    MPU6050_Init();
-//    printf("MPU6050 inited\n");
+    I2C_Init(I2C2);
+    printf("I2C inited\n");
     TIM_Init(19999,41);
-    for(int i=1;i<=5000000;i++);
-    printf("Unlock\n");
+//    for(int i=1;i<=10000000;i++);
     TIM_UnLock();
+    printf("Unlock successful\n");
     REV_TIM_Init();
+    printf("REV inited!\n");
+    MPU6050_Init();
+    printf("MPU6050 inited\n");
+    USART_SendChar(USART6,'c');
     while(1){
         MPU6050_Read_Accel();
         printf("%f %f %f\n",Ax,Ay,Az);
@@ -66,15 +68,21 @@ int main(){
         printf("%f %f %f\n",Ax,Ay,Az);
         MPU6050_Read_temp();
         printf("%f\n",Ax);
-//        USART_SendChar(USART1,'p');
-//        GPIO_SetBits(GPIOA,GPIO_Pin_5);
-//        printf("CCR1:   %d\n",TIM2->CCR1);
         for(int i=1;i<=8;i++)
         {
             printf("%d        %d\n",i,data[i]);
         }
-        PWM_All(3000-data[2]);
-        for(int i=1;i<=10000000;i++);
+        if(data[7]>1200&&data[7]){
+            //遥控器未开启
+            PWM_All(1000);
+        }
+        else if(data[2]==0||3000-data[2]>2000){
+            PWM_All(1000);
+        }
+        else{
+            PWM_All(3000-data[2]);
+        }
+//        for(int i=1;i<=10000000;i++);
 //        GPIO_ReSetBits(GPIOA,GPIO_Pin_5);
     }
 }

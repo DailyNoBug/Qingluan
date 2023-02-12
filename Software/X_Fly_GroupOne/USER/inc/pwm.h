@@ -9,5 +9,5 @@
 #include "gpio.h"
 void TIM_Init(uint16_t arr,uint16_t psc);
 void TIM_UnLock();
-void PWM_All(uint16_t x);
+void PWM_All(uint32_t x);
 #endif //STM32_REGISTER_PWM_H

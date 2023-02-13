@@ -1,0 +1,31 @@
+.\objects\myusart.o: ..\SYSTEM\myusart.c
+.\objects\myusart.o: ..\SYSTEM\myusart.h
+.\objects\myusart.o: ..\USER\stm32f4xx.h
+.\objects\myusart.o: ..\CORE\core_cm4.h
+.\objects\myusart.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\myusart.o: ..\CORE\core_cmInstr.h
+.\objects\myusart.o: ..\CORE\core_cmFunc.h
+.\objects\myusart.o: ..\CORE\core_cm4_simd.h
+.\objects\myusart.o: ..\USER\system_stm32f4xx.h
+.\objects\myusart.o: ..\USER\stm32f4xx_conf.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_adc.h
+.\objects\myusart.o: ..\USER\stm32f4xx.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_crc.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_dbgmcu.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_dma.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_exti.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_flash.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_gpio.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_i2c.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_iwdg.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_pwr.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_rcc.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_rtc.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_sdio.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_spi.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_syscfg.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_tim.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_usart.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_wwdg.h
+.\objects\myusart.o: ..\STM32F40x_FWLib\inc\misc.h
+.\objects\myusart.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

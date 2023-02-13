@@ -1,6 +1,6 @@
 
 /*
- * Auto generated Run-Time-Environment Configuration File
+ * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
  * Project: 'clock_config' 
@@ -16,8 +16,6 @@
  */
 #define CMSIS_device_header "stm32f4xx.h"
 
-/* Keil::Device:Startup:2.6.3 */
 #define RTE_DEVICE_STARTUP_STM32F4XX    /* Device Startup for STM32F4 */
-
 
 #endif /* RTE_COMPONENTS_H */

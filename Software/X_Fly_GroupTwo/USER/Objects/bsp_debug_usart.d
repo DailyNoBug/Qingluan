@@ -1,0 +1,31 @@
+.\objects\bsp_debug_usart.o: usart\bsp_debug_usart.c
+.\objects\bsp_debug_usart.o: ..\USER\./usart/bsp_debug_usart.h
+.\objects\bsp_debug_usart.o: ..\USER\stm32f4xx.h
+.\objects\bsp_debug_usart.o: ..\CORE\core_cm4.h
+.\objects\bsp_debug_usart.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bsp_debug_usart.o: ..\CORE\core_cmInstr.h
+.\objects\bsp_debug_usart.o: ..\CORE\core_cmFunc.h
+.\objects\bsp_debug_usart.o: ..\CORE\core_cm4_simd.h
+.\objects\bsp_debug_usart.o: ..\USER\system_stm32f4xx.h
+.\objects\bsp_debug_usart.o: ..\USER\stm32f4xx_conf.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_adc.h
+.\objects\bsp_debug_usart.o: ..\USER\stm32f4xx.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_crc.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_dbgmcu.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_dma.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_exti.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_flash.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_gpio.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_i2c.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_iwdg.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_pwr.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_rcc.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_rtc.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_sdio.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_spi.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_syscfg.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_tim.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_usart.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\stm32f4xx_wwdg.h
+.\objects\bsp_debug_usart.o: ..\STM32F40x_FWLib\inc\misc.h
+.\objects\bsp_debug_usart.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

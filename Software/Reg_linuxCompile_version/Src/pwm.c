@@ -1,7 +1,7 @@
 //
 // Created by 27900 on 2023/1/27.
 //
-#include "../inc/pwm.h"
+#include "pwm.h"
 /**
  * 本函数暂时不具有普适性，仅仅适用于初始化TIM3，之后将会进行普适性适配
  * 使用TIM3来产生PWM波,AF复用为02
@@ -32,9 +32,9 @@ void TIM_Init(uint16_t arr,uint16_t psc){
 }
 void TIM_UnLock(){
     PWM_All(2000);
-    printf("1\n");
+//    printf("1\n");
     for(int i=1;i<=30000000;i++);
-    printf("2\n");
+//    printf("2\n");
     PWM_All(1000);
     for(int i=1;i<=30000000;i++);
     PWM_All(1100);

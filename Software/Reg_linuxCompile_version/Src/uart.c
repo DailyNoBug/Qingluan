@@ -1,7 +1,7 @@
 //
 // Created by 27900 on 2023/1/21.
 //
-#include "../inc/uart.h"
+#include "uart.h"
 GPIO_InitTypeDef UART_Initstruct;
 void UART1_GPIOInit(){
     /*

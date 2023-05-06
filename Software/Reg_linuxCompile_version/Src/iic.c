@@ -1,7 +1,7 @@
 //
 // Created by 27900 on 2023/2/1.
 //
-#include "../inc/iic.h"
+#include "iic.h"
 /**** STEPS FOLLOWED  ************
 1. Enable the I2C CLOCK and GPIO CLOCK
 2. Configure the I2C PINs for ALternate Functions

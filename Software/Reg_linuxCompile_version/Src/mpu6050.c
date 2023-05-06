@@ -1,7 +1,7 @@
 //
 // Created by 27900 on 2023/2/1.
 //
-#include "../inc/mpu6050.h"
+#include "mpu6050.h"
 uint16_t Accel_X_RAW = 0;
 uint16_t Accel_Y_RAW = 0;
 uint16_t Accel_Z_RAW = 0;

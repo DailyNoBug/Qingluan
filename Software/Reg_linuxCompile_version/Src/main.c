@@ -1,28 +1,26 @@
-#include "../inc/clock_config.h"
-#include "../inc/gpio.h"
-#include "../inc/uart.h"
-#include "../inc/mpu6050.h"
-#include "../inc/iic.h"
-#include "../inc/pwm.h"
-#include "../inc/rev.h"
+#include "clock_config.h"
+#include "gpio.h"
+#include "uart.h"
+#include "mpu6050.h"
+#include "iic.h"
+#include "pwm.h"
+#include "rev.h"
 #include <stdio.h>
 
 extern float Ax,Ay,Az;
 extern uint16_t data[9];
 #if 1
+
 #pragma import(__use_no_semihosting)
-//标准库需要的支持函数
+
+/* 定义 _sys_exit() 以避免使用半主机模式 */
 struct __FILE
 {
     int handle;
-    /* Whatever you require here. If the only file you are using is */
-    /* standard output using printf() for debugging, no file handling */
-    /* is required. */
 };
-/* FILE is typedef’ d in stdio.h. */
+
 FILE __stdout;
-//定义_sys_exit()以避免使用半主机模式
-int _sys_exit(int x)
+void _sys_exit(int x)
 {
     x = x;
 }

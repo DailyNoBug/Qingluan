@@ -1,7 +1,7 @@
 //
 // Created by 27900 on 2023/2/11.
 //
-#include "../inc/rev.h"
+#include "rev.h"
 /**
  * use TIM2 CH1 as PPM in;(PA5)
  */

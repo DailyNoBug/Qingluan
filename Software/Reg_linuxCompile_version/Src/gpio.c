@@ -2,7 +2,7 @@
 // Created by LSC on 2023/1/20.
 // code with UTF-8
 //
-#include "../inc/gpio.h"
+#include "gpio.h"
 void RCC_GPIO_ENR(GPIO_TypeDef *GPIOx){
     if(GPIOx == GPIOA)      RCC->AHB1ENR |= 1<<0;
     else if(GPIOx == GPIOB) RCC->AHB1ENR |= 1<<1;

@@ -2,7 +2,7 @@
  * 时钟配置模块
  * code with UTF-8
  */
-#include "../inc/clock_config.h"
+#include "clock_config.h"
 /*
  * config clock source which use pll
  * PCLK1 -> 42MHz

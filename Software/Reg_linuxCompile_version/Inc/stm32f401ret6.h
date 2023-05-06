@@ -6,9 +6,12 @@
 #define STM32_REGISTER_STM32F401RET6_H
 
 #define __IO volatile
-typedef unsigned int    uint32_t;
-typedef unsigned short  uint16_t;
-typedef unsigned char   uint8_t;
+#ifndef uint32_t
+#include "stdint.h"
+//typedef unsigned int    uint32_t;
+//typedef unsigned short  uint16_t;
+//typedef unsigned char   uint8_t;
+#endif
 #define MaxRound 1000
 #define PLL_M 8
 #define PLL_N 84

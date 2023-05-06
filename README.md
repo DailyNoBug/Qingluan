@@ -13,7 +13,7 @@
 README.md 		概述文件
 ```
 ## 硬件端口定义
-![img.png](img.png)
+![img.png](https://tuchuang-e682.obs.cn-north-1.myhuaweicloud.com/img.png)
 ### GY-86
 | 芯片引脚 | 传感器端口定义 |
 | -------- | -------------- |

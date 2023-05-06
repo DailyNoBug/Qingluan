@@ -1,45 +1,0 @@
-Dependencies for Project 'clock_config', Target 'Target 1': (DO NOT MODIFY !)
-CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (.\USER\src\main.c)(0x63E23C40)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\USER\inc-I.\RTE\_Target_1-ID:\myinstall\MDK536PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\myinstall\MDK536PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (USER\src\../inc/clock_config.h)(0x63C9F287)
-I (USER\src\../inc/stm32f401ret6.h)(0x63DF796C)
-I (USER\src\../inc/gpio.h)(0x63CA4E2E)
-I (USER\src\../inc/uart.h)(0x63CE09B6)
-I (USER\src\../inc/mpu6050.h)(0x63DB0E16)
-I (USER\src\../inc/iic.h)(0x63D9E252)
-I (USER\src\../inc/pwm.h)(0x63DB8168)
-I (D:\myinstall\mdk536\ARM\ARMCC\include\stdio.h)(0x60252374)
-F (.\USER\src\clock_config.c)(0x63CD0258)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\USER\inc-I.\RTE\_Target_1-ID:\myinstall\MDK536PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\myinstall\MDK536PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\objects\clock_config.o --omf_browse .\objects\clock_config.crf --depend .\objects\clock_config.d)
-I (USER\src\../inc/clock_config.h)(0x63C9F287)
-I (USER\src\../inc/stm32f401ret6.h)(0x63DF796C)
-F (.\USER\src\gpio.c)(0x63CA502B)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\USER\inc-I.\RTE\_Target_1-ID:\myinstall\MDK536PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\myinstall\MDK536PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
-I (USER\src\../inc/gpio.h)(0x63CA4E2E)
-I (USER\src\../inc/stm32f401ret6.h)(0x63DF796C)
-F (.\USER\src\uart.c)(0x63D34DB2)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\USER\inc-I.\RTE\_Target_1-ID:\myinstall\MDK536PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\myinstall\MDK536PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
-I (USER\src\../inc/uart.h)(0x63CE09B6)
-I (USER\src\../inc/stm32f401ret6.h)(0x63DF796C)
-I (USER\src\../inc/gpio.h)(0x63CA4E2E)
-F (.\USER\src\mpu6050.c)(0x63DB0E06)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\USER\inc-I.\RTE\_Target_1-ID:\myinstall\MDK536PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\myinstall\MDK536PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\objects\mpu6050.o --omf_browse .\objects\mpu6050.crf --depend .\objects\mpu6050.d)
-I (USER\src\../inc/mpu6050.h)(0x63DB0E16)
-I (USER\src\../inc/stm32f401ret6.h)(0x63DF796C)
-I (USER\src\../inc/iic.h)(0x63D9E252)
-I (USER\src\../inc/gpio.h)(0x63CA4E2E)
-F (.\USER\src\iic.c)(0x63DB0ED0)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\USER\inc-I.\RTE\_Target_1-ID:\myinstall\MDK536PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\myinstall\MDK536PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\objects\iic.o --omf_browse .\objects\iic.crf --depend .\objects\iic.d)
-I (USER\src\../inc/iic.h)(0x63D9E252)
-I (USER\src\../inc/stm32f401ret6.h)(0x63DF796C)
-I (USER\src\../inc/gpio.h)(0x63CA4E2E)
-F (.\USER\src\pwm.c)(0x63E23ADD)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\USER\inc-I.\RTE\_Target_1-ID:\myinstall\MDK536PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\myinstall\MDK536PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
-I (USER\src\../inc/pwm.h)(0x63DB8168)
-I (USER\src\../inc/stm32f401ret6.h)(0x63DF796C)
-I (USER\src\../inc/gpio.h)(0x63CA4E2E)
-F (RTE\Device\STM32F401RETx\startup_stm32f401xe.s)(0x6110C0C0)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-ID:\myinstall\MDK536PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\myinstall\MDK536PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32F401xE SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f401xe.lst --xref -o .\objects\startup_stm32f401xe.o --depend .\objects\startup_stm32f401xe.d)
-F (RTE\Device\STM32F401RETx\system_stm32f4xx.c)(0x6110C0C0)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\USER\inc-I.\RTE\_Target_1-ID:\myinstall\MDK536PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\myinstall\MDK536PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
-I (D:\myinstall\MDK536PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x6110C0C0)
-I (D:\myinstall\MDK536PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x6110C0C0)
-I (D:\myinstall\MDK536PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
-I (D:\myinstall\mdk536\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (D:\myinstall\MDK536PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
-I (D:\myinstall\MDK536PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
-I (D:\myinstall\MDK536PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
-I (D:\myinstall\MDK536PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
-I (D:\myinstall\MDK536PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x6110C0C0)

@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=led_blink
+CMAKE_PROJECT_NAME:STATIC=qingluan
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -220,6 +220,15 @@ led_blink_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 led_blink_SOURCE_DIR:STATIC=/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version
+
+//Value Computed by CMake
+qingluan_BINARY_DIR:STATIC=/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug
+
+//Value Computed by CMake
+qingluan_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+qingluan_SOURCE_DIR:STATIC=/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version
 
 
 ########################

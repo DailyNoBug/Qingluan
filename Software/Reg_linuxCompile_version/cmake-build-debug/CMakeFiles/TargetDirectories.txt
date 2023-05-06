@@ -1,5 +1,5 @@
-/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug/CMakeFiles/led_blink.elf.dir
-/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug/CMakeFiles/led_blink.bin.dir
+/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug/CMakeFiles/qingluan.elf.dir
+/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug/CMakeFiles/qingluan.bin.dir
 /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug/CMakeFiles/flash.dir
 /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: led_blink
+# Project: qingluan
 # Configurations: Debug
 # =============================================================================
 
@@ -41,53 +41,100 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target led_blink.elf
+# Object build statements for EXECUTABLE target qingluan.elf
 
 
 #############################################
-# Order-only phony target for led_blink.elf
+# Order-only phony target for qingluan.elf
 
-build cmake_object_order_depends_target_led_blink.elf: phony || CMakeFiles/led_blink.elf.dir
+build cmake_object_order_depends_target_qingluan.elf: phony || CMakeFiles/qingluan.elf.dir
 
-build CMakeFiles/led_blink.elf.dir/Src/main.c.o: C_COMPILER__led_blink.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/main.c || cmake_object_order_depends_target_led_blink.elf
-  DEP_FILE = CMakeFiles/led_blink.elf.dir/Src/main.c.o.d
-  FLAGS = -mthumb -mcpu=cortex-m4 -g -O0 -Wall -fdata-sections -ffunction-sections -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/led_blink.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/led_blink.elf.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/led_blink.elf.dir/
-  TARGET_PDB = led_blink.elf.pdb
+build CMakeFiles/qingluan.elf.dir/Src/clock_config.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/clock_config.c || cmake_object_order_depends_target_qingluan.elf
+  DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/clock_config.c.o.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
+  OBJECT_DIR = CMakeFiles/qingluan.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
 
-build CMakeFiles/led_blink.elf.dir/startup_stm32f401xe.s.o: ASM_COMPILER__led_blink.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/startup_stm32f401xe.s || cmake_object_order_depends_target_led_blink.elf
-  DEP_FILE = CMakeFiles/led_blink.elf.dir/startup_stm32f401xe.s.o.d
+build CMakeFiles/qingluan.elf.dir/Src/gpio.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/gpio.c || cmake_object_order_depends_target_qingluan.elf
+  DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/gpio.c.o.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
+  OBJECT_DIR = CMakeFiles/qingluan.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
+
+build CMakeFiles/qingluan.elf.dir/Src/iic.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/iic.c || cmake_object_order_depends_target_qingluan.elf
+  DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/iic.c.o.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
+  OBJECT_DIR = CMakeFiles/qingluan.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
+
+build CMakeFiles/qingluan.elf.dir/Src/main.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/main.c || cmake_object_order_depends_target_qingluan.elf
+  DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/main.c.o.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
+  OBJECT_DIR = CMakeFiles/qingluan.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
+
+build CMakeFiles/qingluan.elf.dir/Src/mpu6050.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/mpu6050.c || cmake_object_order_depends_target_qingluan.elf
+  DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/mpu6050.c.o.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
+  OBJECT_DIR = CMakeFiles/qingluan.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
+
+build CMakeFiles/qingluan.elf.dir/Src/pwm.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/pwm.c || cmake_object_order_depends_target_qingluan.elf
+  DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/pwm.c.o.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
+  OBJECT_DIR = CMakeFiles/qingluan.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
+
+build CMakeFiles/qingluan.elf.dir/Src/rev.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/rev.c || cmake_object_order_depends_target_qingluan.elf
+  DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/rev.c.o.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
+  OBJECT_DIR = CMakeFiles/qingluan.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
+
+build CMakeFiles/qingluan.elf.dir/Src/uart.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/uart.c || cmake_object_order_depends_target_qingluan.elf
+  DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/uart.c.o.d
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
+  OBJECT_DIR = CMakeFiles/qingluan.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
+
+build CMakeFiles/qingluan.elf.dir/startup_stm32f401xe.s.o: ASM_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/startup_stm32f401xe.s || cmake_object_order_depends_target_qingluan.elf
+  DEP_FILE = CMakeFiles/qingluan.elf.dir/startup_stm32f401xe.s.o.d
   FLAGS = -mthumb -mcpu=cortex-m4 -g -x assembler-with-cpp -g
-  OBJECT_DIR = CMakeFiles/led_blink.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/led_blink.elf.dir
-  TARGET_COMPILE_PDB = CMakeFiles/led_blink.elf.dir/
-  TARGET_PDB = led_blink.elf.pdb
+  INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
+  OBJECT_DIR = CMakeFiles/qingluan.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target led_blink.elf
+# Link build statements for EXECUTABLE target qingluan.elf
 
 
 #############################################
-# Link the executable led_blink.elf
+# Link the executable qingluan.elf
 
-build led_blink.elf: C_EXECUTABLE_LINKER__led_blink.2eelf_Debug CMakeFiles/led_blink.elf.dir/Src/main.c.o CMakeFiles/led_blink.elf.dir/startup_stm32f401xe.s.o
-  FLAGS = -mthumb -mcpu=cortex-m4 -g -O0 -Wall -fdata-sections -ffunction-sections -g
-  LINK_FLAGS = -mthumb -mcpu=cortex-m4 -specs=nano.specs -Wl,--gc-sections -Wl,-Map=led_blink.map -T/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Script/STM32F401RETx_FLASH.ld
-  OBJECT_DIR = CMakeFiles/led_blink.elf.dir
+build qingluan.elf: C_EXECUTABLE_LINKER__qingluan.2eelf_Debug CMakeFiles/qingluan.elf.dir/Src/clock_config.c.o CMakeFiles/qingluan.elf.dir/Src/gpio.c.o CMakeFiles/qingluan.elf.dir/Src/iic.c.o CMakeFiles/qingluan.elf.dir/Src/main.c.o CMakeFiles/qingluan.elf.dir/Src/mpu6050.c.o CMakeFiles/qingluan.elf.dir/Src/pwm.c.o CMakeFiles/qingluan.elf.dir/Src/rev.c.o CMakeFiles/qingluan.elf.dir/Src/uart.c.o CMakeFiles/qingluan.elf.dir/startup_stm32f401xe.s.o
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g
+  LINK_FLAGS = -mthumb -mabi=aapcs -mcpu=cortex-m4 --specs=nano.specs --specs=nosys.specs -Wl,--gc-sections -Wl,-Map=qingluan.map -T/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Script/STM32F401RETx_FLASH.ld
+  LINK_LIBRARIES = -Wl,-Map=qingluan.map  -Wl,--gc-sections  -Wl,--print-memory-usage  -Wl,-lc  -lm
+  OBJECT_DIR = CMakeFiles/qingluan.elf.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/led_blink.elf.dir/
-  TARGET_FILE = led_blink.elf
-  TARGET_PDB = led_blink.elf.pdb
+  TARGET_FILE = qingluan.elf
+  TARGET_PDB = qingluan.elf.dbg
 
 
 #############################################
-# Utility command for led_blink.bin
+# Utility command for qingluan.bin
 
-build led_blink.bin: phony CMakeFiles/led_blink.bin led_blink.elf
+build qingluan.bin: phony CMakeFiles/qingluan.bin qingluan.elf
 
 
 #############################################
@@ -120,17 +167,17 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 
 #############################################
-# Custom command for CMakeFiles/led_blink.bin
+# Custom command for CMakeFiles/qingluan.bin
 
-build CMakeFiles/led_blink.bin | ${cmake_ninja_workdir}CMakeFiles/led_blink.bin: CUSTOM_COMMAND led_blink.elf || led_blink.elf
-  COMMAND = cd /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug && arm-none-eabi-objcopy -Obinary led_blink.elf led_blink.bin
+build CMakeFiles/qingluan.bin | ${cmake_ninja_workdir}CMakeFiles/qingluan.bin: CUSTOM_COMMAND qingluan.elf || qingluan.elf
+  COMMAND = cd /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug && arm-none-eabi-objcopy -Obinary qingluan.elf qingluan.bin
 
 
 #############################################
 # Custom command for CMakeFiles/flash
 
 build CMakeFiles/flash | ${cmake_ninja_workdir}CMakeFiles/flash: CUSTOM_COMMAND
-  COMMAND = cd /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug && st-flash write led_blink.bin 0x08000000
+  COMMAND = cd /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug && st-flash --reset write qingluan.bin 0x08000000
 
 # =============================================================================
 # Target aliases.
@@ -143,7 +190,7 @@ build CMakeFiles/flash | ${cmake_ninja_workdir}CMakeFiles/flash: CUSTOM_COMMAND
 #############################################
 # Folder: /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug
 
-build all: phony led_blink.elf led_blink.bin
+build all: phony qingluan.elf qingluan.bin
 
 # =============================================================================
 # Built-in targets
@@ -152,14 +199,14 @@ build all: phony led_blink.elf led_blink.bin
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeASMCompiler.cmake.in /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeASMInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineASMCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestASMCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-ASM.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeASMCompiler.cmake CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeASMInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-ASM.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeASMCompiler.cmake CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeASMCompiler.cmake.in /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeASMInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineASMCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestASMCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-ASM.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeASMCompiler.cmake CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
+build /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeASMInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-ASM.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /home/lsc/myinstall/CLion-2023.1.2/clion-2023.1.2/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeASMCompiler.cmake CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
 
 
 #############################################

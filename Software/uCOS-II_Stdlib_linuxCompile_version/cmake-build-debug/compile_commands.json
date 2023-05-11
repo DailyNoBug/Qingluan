@@ -1,0 +1,292 @@
+[
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/OS/src/app_hooks.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/app_hooks.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/app_hooks.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/OS/src/os_core.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_core.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_core.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/OS/src/os_cpu_c.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_cpu_c.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_cpu_c.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/OS/src/os_dbg_r.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_dbg_r.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_dbg_r.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/OS/src/os_flag.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_flag.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_flag.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/OS/src/os_mbox.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_mbox.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_mbox.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/OS/src/os_mem.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_mem.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_mem.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/OS/src/os_mutex.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_mutex.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_mutex.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/OS/src/os_q.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_q.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_q.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/OS/src/os_sem.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_sem.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_sem.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/OS/src/os_task.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_task.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_task.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/OS/src/os_time.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_time.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_time.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/OS/src/os_tmr.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_tmr.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/src/os_tmr.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/misc.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/misc.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/misc.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_adc.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_adc.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_adc.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_can.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_can.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_can.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_crc.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_crc.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_crc.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_cryp.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_cryp.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_cryp.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_cryp_aes.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_cryp_aes.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_cryp_aes.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_cryp_des.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_cryp_des.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_cryp_des.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_cryp_tdes.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_cryp_tdes.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_cryp_tdes.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_dac.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_dac.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_dac.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_dbgmcu.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_dbgmcu.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_dbgmcu.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_dcmi.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_dcmi.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_dcmi.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_dma.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_dma.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_dma.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_dma2d.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_dma2d.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_dma2d.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_exti.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_exti.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_exti.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_flash.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_flash.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_flash.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_flash_ramfunc.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_flash_ramfunc.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_flash_ramfunc.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_gpio.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_gpio.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_gpio.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_hash.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_hash.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_hash.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_hash_md5.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_hash_md5.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_hash_md5.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_hash_sha1.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_hash_sha1.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_hash_sha1.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_i2c.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_i2c.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_i2c.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_iwdg.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_iwdg.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_iwdg.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_ltdc.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_ltdc.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_ltdc.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_pwr.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_pwr.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_pwr.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_rcc.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_rcc.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_rcc.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_rng.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_rng.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_rng.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_rtc.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_rtc.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_rtc.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_sai.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_sai.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_sai.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_sdio.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_sdio.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_sdio.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_spi.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_spi.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_spi.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_syscfg.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_syscfg.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_syscfg.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_tim.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_tim.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_tim.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_usart.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_usart.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_usart.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/STM32F40x_FWLib/src/stm32f4xx_wwdg.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_wwdg.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/src/stm32f4xx_wwdg.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/Src/delay.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/delay.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/delay.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/Src/i2c.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/i2c.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/i2c.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/Src/led.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/led.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/led.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/Src/main.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/main.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/main.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/Src/motor.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/motor.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/motor.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/Src/mpu6050.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/mpu6050.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/mpu6050.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/Src/myusart.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/myusart.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/myusart.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/Src/stm32f4xx_it.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/stm32f4xx_it.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/stm32f4xx_it.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always -o CMakeFiles/qingluan.elf.dir/Src/system_stm32f4xx.c.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/system_stm32f4xx.c",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Src/system_stm32f4xx.c"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -g -x assembler-with-cpp -g -o CMakeFiles/qingluan.elf.dir/startup_stm32f401xe.s.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/startup_stm32f401xe.s",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/startup_stm32f401xe.s"
+},
+{
+  "directory": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/Inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/STM32F40x_FWLib/inc -I/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/inc -mthumb -mcpu=cortex-m4 -g -x assembler-with-cpp -g -o CMakeFiles/qingluan.elf.dir/OS/os_cpu_a.S.o -c /home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/os_cpu_a.S",
+  "file": "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/OS/os_cpu_a.S"
+}
+]

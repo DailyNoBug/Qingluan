@@ -51,56 +51,56 @@ build cmake_object_order_depends_target_qingluan.elf: phony || CMakeFiles/qinglu
 
 build CMakeFiles/qingluan.elf.dir/Src/clock_config.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/clock_config.c || cmake_object_order_depends_target_qingluan.elf
   DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/clock_config.c.o.d
-  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=c99 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
   INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
   OBJECT_DIR = CMakeFiles/qingluan.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
 
 build CMakeFiles/qingluan.elf.dir/Src/gpio.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/gpio.c || cmake_object_order_depends_target_qingluan.elf
   DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/gpio.c.o.d
-  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=c99 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
   INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
   OBJECT_DIR = CMakeFiles/qingluan.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
 
 build CMakeFiles/qingluan.elf.dir/Src/iic.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/iic.c || cmake_object_order_depends_target_qingluan.elf
   DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/iic.c.o.d
-  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=c99 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
   INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
   OBJECT_DIR = CMakeFiles/qingluan.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
 
 build CMakeFiles/qingluan.elf.dir/Src/main.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/main.c || cmake_object_order_depends_target_qingluan.elf
   DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/main.c.o.d
-  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=c99 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
   INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
   OBJECT_DIR = CMakeFiles/qingluan.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
 
 build CMakeFiles/qingluan.elf.dir/Src/mpu6050.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/mpu6050.c || cmake_object_order_depends_target_qingluan.elf
   DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/mpu6050.c.o.d
-  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=c99 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
   INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
   OBJECT_DIR = CMakeFiles/qingluan.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
 
 build CMakeFiles/qingluan.elf.dir/Src/pwm.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/pwm.c || cmake_object_order_depends_target_qingluan.elf
   DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/pwm.c.o.d
-  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=c99 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
   INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
   OBJECT_DIR = CMakeFiles/qingluan.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
 
 build CMakeFiles/qingluan.elf.dir/Src/rev.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/rev.c || cmake_object_order_depends_target_qingluan.elf
   DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/rev.c.o.d
-  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=c99 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
   INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
   OBJECT_DIR = CMakeFiles/qingluan.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
 
 build CMakeFiles/qingluan.elf.dir/Src/uart.c.o: C_COMPILER__qingluan.2eelf_Debug /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Src/uart.c || cmake_object_order_depends_target_qingluan.elf
   DEP_FILE = CMakeFiles/qingluan.elf.dir/Src/uart.c.o.d
-  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=c99 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g -fdiagnostics-color=always
   INCLUDES = -I/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Inc
   OBJECT_DIR = CMakeFiles/qingluan.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/qingluan.elf.dir/Src
@@ -121,7 +121,7 @@ build CMakeFiles/qingluan.elf.dir/startup_stm32f401xe.s.o: ASM_COMPILER__qinglua
 # Link the executable qingluan.elf
 
 build qingluan.elf: C_EXECUTABLE_LINKER__qingluan.2eelf_Debug CMakeFiles/qingluan.elf.dir/Src/clock_config.c.o CMakeFiles/qingluan.elf.dir/Src/gpio.c.o CMakeFiles/qingluan.elf.dir/Src/iic.c.o CMakeFiles/qingluan.elf.dir/Src/main.c.o CMakeFiles/qingluan.elf.dir/Src/mpu6050.c.o CMakeFiles/qingluan.elf.dir/Src/pwm.c.o CMakeFiles/qingluan.elf.dir/Src/rev.c.o CMakeFiles/qingluan.elf.dir/Src/uart.c.o CMakeFiles/qingluan.elf.dir/startup_stm32f401xe.s.o
-  FLAGS = -mthumb -mcpu=cortex-m4 -std=gnu11 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g
+  FLAGS = -mthumb -mcpu=cortex-m4 -std=c99 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra -Wno-error -g
   LINK_FLAGS = -mthumb -mabi=aapcs -mcpu=cortex-m4 --specs=nano.specs --specs=nosys.specs -Wl,--gc-sections -Wl,-Map=qingluan.map -T/home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/Script/STM32F401RETx_FLASH.ld
   LINK_LIBRARIES = -Wl,-Map=qingluan.map  -Wl,--gc-sections  -Wl,--print-memory-usage  -Wl,-lc  -lm
   OBJECT_DIR = CMakeFiles/qingluan.elf.dir
@@ -177,7 +177,7 @@ build CMakeFiles/qingluan.bin | ${cmake_ninja_workdir}CMakeFiles/qingluan.bin: C
 # Custom command for CMakeFiles/flash
 
 build CMakeFiles/flash | ${cmake_ninja_workdir}CMakeFiles/flash: CUSTOM_COMMAND
-  COMMAND = cd /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug && st-flash --reset write qingluan.bin 0x08000000
+  COMMAND = cd /home/lsc/repo/Qingluan/Software/Reg_linuxCompile_version/cmake-build-debug && st-flash --debug write qingluan.bin 0x08000000
 
 # =============================================================================
 # Target aliases.

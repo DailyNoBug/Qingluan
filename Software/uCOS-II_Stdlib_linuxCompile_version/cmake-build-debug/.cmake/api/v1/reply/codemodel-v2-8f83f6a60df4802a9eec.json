@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qingluan",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "flash::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flash-Debug-f32150b17ae7bb27a16c.json",
+					"name" : "flash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openocd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openocd-Debug-6a68501894f495b31c6c.json",
+					"name" : "openocd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qingluan.bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qingluan.bin-Debug-8591e4a22a735326b5bd.json",
+					"name" : "qingluan.bin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qingluan.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qingluan.elf-Debug-c830f68c8175fa1f355b.json",
+					"name" : "qingluan.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version/cmake-build-debug",
+		"source" : "/home/lsc/repo/Qingluan/Software/uCOS-II_Stdlib_linuxCompile_version"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
